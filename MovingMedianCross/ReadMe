@@ -1,0 +1,6 @@
+The basic strategy employed in Trend Trading is a Moving Average Cross over. When a FastMA crosses SlowMA, there is a short term momemtum in the direction and hence trade should pick up the trend and latch on. Trade is exited when the the Avgs cross on the reverse side.There are some Cons to using Averages/Means -
+1) AVG need not be a specific price that did occur in the bar
+2) AVG are skewed by extremes in either direction
+3) AVG are lagging.
+
+In view of this, should we stick to using MEDIAN, or a Volume Weighted Average, or a Time Weighted Average ( TPO ) ?
