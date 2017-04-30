@@ -108,7 +108,7 @@ void WriteDataRow(int i,int Timef)
  int dHour = TimeHour(dSymTime);
  int dMin  = TimeMinute(dSymTime);
  
- dSymOpen = (iOpen(dSymbol,Period(),i));
+ dSymOpen = (iOpen(dSymbol,Timef,i));
 
  if(dSymOpen>0)
  {
@@ -125,11 +125,11 @@ void WriteDataRow(int i,int Timef)
   iDigits=MarketInfo(Symbol(),MODE_DIGITS);
   
   
-  dSymOpen = (iOpen(dSymbol,Period(),i));
-  dSymHigh = (iHigh(dSymbol,Period(),i));
-  dSymLow = (iLow(dSymbol,Period(),i));
-  dSymClose = (iClose(dSymbol,Period(),i));
-  dSymVolume = (iVolume(dSymbol,Period(),i));
+  dSymOpen = (iOpen(dSymbol,Timef,i));
+  dSymHigh = (iHigh(dSymbol,Timef,i));
+  dSymLow = (iLow(dSymbol,Timef,i));
+  dSymClose = (iClose(dSymbol,Timef,i));
+  dSymVolume = (iVolume(dSymbol,Timef,i));
  
   //  int BarsInBox=8;
   //  double PeriodHighest = High[iHighest(dSymbol,Period(),MODE_HIGH,BarsInBox+1,i)];
