@@ -1,4 +1,4 @@
-This strategy is a Momemtum-Breakout Strategy. When there is a huge move on the currency in one direction, towards end of the move - the Candle/Bar indicates traders that are taking profits ie the are on a precarious contrarian bet. If on a next candle, this "shave" gets broken, there is a good chance the 
+This strategy is a Momemtum-Breakout Strategy. When there is a huge move on the currency in one direction, towards end of the move - the Candle/Bar indicates traders that are taking profits ie they are on a precarious contrarian bet. If on a next candle, this "shave" gets broken, there is a good chance the 
 previous momemtum keeps the pair to go through in same direction. This momemtum+Breakout is a function of Flow+Shave+FalseBreak.
 
 FalseBreak will help avoid StopRuns and Thin bout of liqidity in the area.
